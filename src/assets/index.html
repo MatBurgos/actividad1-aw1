@@ -10,6 +10,9 @@
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         header {
@@ -21,12 +24,6 @@
 
         header h1 {
             margin: 0;
-        }
-
-        header a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
         }
 
         h1 {
@@ -45,11 +42,17 @@
             text-align: justify;
         }
 
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px 0;
+            margin-top: auto;
         }
     </style>
 </head>
@@ -58,6 +61,7 @@
         <h1>WebWizards</h1>
         <a href="index.html">Inicio</a>
         <a href="recursos.html">Recursos</a>
+        <img src="images/Fondo2.jpg" alt="Fondo1">
     </header>
     <h1>Cómo convertirte en un desarrollador web excepcional</h1>
     <h2>Consejos y trucos para mejorar tus habilidades y destacar en el campo del desarrollo web</h2>
@@ -69,7 +73,7 @@
         En resumen, para ser un desarrollador web excepcional, debes estar siempre aprendiendo y actualizándote en las últimas tecnologías y tendencias, enfocarte en la calidad del código y prestar atención a la experiencia del usuario. Siguiendo estos consejos, puedes mejorar tus habilidades como desarrollador web y destacar en tu campo.
     </p>
     <footer>
-        <p>@MatiasBurgos</p>
+        <p>Desarrollador: Matias Burgos @2023</p>
     </footer>
 </body>
 </html>
